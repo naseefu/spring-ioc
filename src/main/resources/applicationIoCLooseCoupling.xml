@@ -13,4 +13,13 @@
         <constructor-arg ref="webServiceDatabase"/>
     </bean>
 
+
+    <!-- we can use this for different implementation using UserDatabase class
+
+    <bean id="userManager" class="com.ioc.loose.coupling.UserManager">
+        <constructor-arg ref="userDatabase"/>
+    </bean>
+
+    -->
+
 </beans>
