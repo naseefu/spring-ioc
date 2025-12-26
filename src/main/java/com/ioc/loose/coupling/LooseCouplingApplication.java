@@ -1,4 +1,4 @@
-package com.loose.coupling;
+package com.ioc.loose.coupling;
 
 
 import org.springframework.context.ApplicationContext;

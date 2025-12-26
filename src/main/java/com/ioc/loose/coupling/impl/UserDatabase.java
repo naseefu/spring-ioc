@@ -1,6 +1,6 @@
-package com.loose.coupling.impl;
+package com.ioc.loose.coupling.impl;
 
-import com.loose.coupling.UserDataProvider;
+import com.ioc.loose.coupling.UserDataProvider;
 
 public class UserDatabase implements UserDataProvider {
 

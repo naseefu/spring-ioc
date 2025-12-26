@@ -6,10 +6,10 @@
 
     <!-- bean definitions here -->
 
-    <bean id="userDatabase" class="com.loose.coupling.impl.UserDatabase"></bean>
-    <bean id="webServiceDatabase" class="com.loose.coupling.impl.WebServiceDatabase"></bean>
+    <bean id="userDatabase" class="com.ioc.loose.coupling.impl.UserDatabase"></bean>
+    <bean id="webServiceDatabase" class="com.ioc.loose.coupling.impl.WebServiceDatabase"></bean>
 
-    <bean id="userManager" class="com.loose.coupling.UserManager">
+    <bean id="userManager" class="com.ioc.loose.coupling.UserManager">
         <constructor-arg ref="webServiceDatabase"/>
     </bean>
 
